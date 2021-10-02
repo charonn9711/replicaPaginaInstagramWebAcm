@@ -1,0 +1,107 @@
+/* Charonn Lopez - 201502020725
+Milton Timote - 20182020026 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(var(--b3f,250,250,250),1);
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.letra{
+  background-image: url(img/instagram.png);
+  width: 100%;
+  height: 50px;
+}
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #fff;
+  color: rgb(24, 23, 23);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  align-content: center;
+  align-items: center;
+}
+
+.login-box .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  font-size: 14px;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+.login-box input[type="text"], .login-box input[type="contraseña"] {
+  width: 90%;
+	background: #fafafa;
+	border: 1px solid #efefef;
+	font-size: 12px;
+	border-radius: 3px;
+	color: #262626;
+	padding: 10px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #0095f6;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: rgba(255, 253, 253, 0.911);
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color:darkgrey;
+}
+
+.button{
+   border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
